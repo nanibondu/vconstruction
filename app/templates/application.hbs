@@ -1,0 +1,28 @@
+<div class="navbar-fixed">
+	<nav>
+		<div class="nav-wrapper navbar-padding-left">
+			<a href="/" class="brand-logo">{{title}}</a>
+			<a href="/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="/company">Company</a></li>
+				<li><a href="/person">Person</a></li>
+				<li><a href="/info">Info</a></li>
+				<li><a href="/message">Message</a></li>				
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li><a href="/company">Company</a></li>
+				<li><a href="/person">Person</a></li>
+				<li><a href="/info">Info</a></li>
+				<li><a href="/message">Message</a></li>				
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<!-- Page Layout here -->
+<div class="row">
+  <div class="col s12">
+    <!-- Teal page content  -->
+    {{outlet}}
+  </div>  
+</div>
